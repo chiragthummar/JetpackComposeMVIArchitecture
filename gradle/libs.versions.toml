@@ -1,0 +1,239 @@
+[versions]
+library = "8.0.2"
+agp = "8.2.0"
+kotlin = "1.9.20"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.6.2"
+activityCompose = "1.8.2"
+composeBom = "2023.10.01"
+
+#Generative AI SDK
+generativeai = "0.1.1"
+
+#
+material = "1.11.0"
+constraintlayout = "2.1.4"
+androidx-appcompat = "1.6.1"
+multidex = "2.0.1"
+
+#Accompanist
+accompanist-permissions = "0.31.0-alpha"
+accompanist-webview = "0.24.11-rc"
+accompanist-drawablepainter = "0.32.0"
+accompanist-flowlayout = "0.31.0-alpha"
+accompanist-systemuicontroller = "0.30.1"
+accompanist-pager = "0.25.0"
+accompanist-pager-indicators = "0.25.0"
+commons-io = "2.13.0"
+
+#PDFium
+pdfium-android = "1.9.0"
+android-pdf-viewer = "3.2.0-beta.1"
+
+# Compose
+navigation-compose = "2.7.6"
+protolite-well-known-types = "18.0.0"
+constraintlayout-compose = "1.0.1"
+
+#Dagger-Hilt
+hilt = "2.49"
+hilt-work = "1.1.0"
+hilt-compose = "1.1.0"
+
+#Activity KTX for viewModels()
+activity-ktx = "1.8.2"
+
+# Glide
+glide = "4.15.1"
+
+#Lifecycle
+lifecycle-version = "2.6.2"
+runtime-livedata = "1.5.4"
+lifecycle-extensions = "2.2.0"
+
+#Retrofit2
+retrofit = "2.9.0"
+okhttp = "5.0.0-alpha.11"
+
+#Coroutines
+coroutines = "1.7.3"
+
+#Room Database
+room = "2.6.1"
+
+#Splash
+core-splashscreen = "1.0.1"
+
+#Data Store
+datastore-preferences = "1.0.0"
+
+#In App Purchase
+billing-version = "6.1.0"
+firebase-crashlytics-buildtools = "2.9.9"
+
+#Firebase
+gms-play-services-ads = "22.6.0"
+
+#Lottie Animation
+lottie-compose = "4.0.0"
+
+#Coil Image Loading
+coil = "2.5.0"
+
+#Html Text Viewer
+compose-html = "1.0.2"
+
+#Itext PDF
+itext7-core = "7.2.5"
+slf4j-simple = "2.0.7"
+
+#Shimmer
+shimmer = "0.5.0"
+
+#JSoup for HTML parsing
+jsoup = "1.15.4"
+
+#Download File
+work-runtime-ktx = "2.9.0"
+
+#KSP
+ksp = "1.9.20-1.0.14"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+#Generative AI SDK
+#add the dependency for the Google AI client SDK for Android
+generativeai = {group = "com.google.ai.client.generativeai", name = "generativeai", version.ref ="generativeai"}
+
+
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+multidex = { group = "androidx.multidex", name = "multidex" }
+ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding" }
+
+#Accompanist
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist-permissions" }
+accompanist-webview = { group = "com.google.accompanist", name = "accompanist-webview", version.ref = "accompanist-webview" }
+accompanist-drawablepainter = { group = "com.google.accompanist", name = "accompanist-drawablepainter", version.ref = "accompanist-drawablepainter" }
+accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist-flowlayout" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist-systemuicontroller" }
+accompanist-pager = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "accompanist-pager" }
+accompanist-pager-indicators = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version.ref = "accompanist-pager-indicators" }
+commons-io = { group = "commons-io", name = "commons-io", version.ref = "commons-io" }
+
+#Compose
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+protolite-well-known-types = { group = "com.google.firebase", name = "protolite-well-known-types", version.ref = "protolite-well-known-types" }
+constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayout-compose" }
+
+#Dagger-Hilt
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-compose" }
+hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hilt-work" }
+hilt-work-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hilt-work" }
+
+#Activity KTX for viewModels()
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity-ktx" }
+
+# Glide
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+
+#Lifecycle
+lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle-extensions" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-version" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-version" }
+lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle-version" }
+lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "lifecycle-version" }
+lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycle-version" }
+runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtime-livedata" }
+
+#Retrofit2
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+
+#Coroutines
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+#Room Database
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+#Kotlin Extensions and Coroutines support for Room
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
+#Splash
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core-splashscreen" }
+
+#Data Store
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore-preferences" }
+
+#In App Purchase
+billing = { group = "com.android.billingclient", name = "billing", version.ref = "billing-version" }
+billing-ktx = { group = "com.android.billingclient", name = "billing-ktx", version.ref = "billing-version" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebase-crashlytics-buildtools" }
+
+#Firebase
+firebase-bom = "com.google.firebase:firebase-bom:32.7.0"
+firebase-config-ktx = { module = "com.google.firebase:firebase-config-ktx" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx" }
+gms-play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "gms-play-services-ads" }
+
+#Lottie Animation
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie-compose" }
+
+#Coil Image Loading
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+coil-video = { group = "io.coil-kt", name = "coil-video", version.ref = "coil" }
+
+#Html Text Viewer
+compose-html = { group = "com.github.ireward", name = "compose-html", version.ref = "compose-html" }
+
+#Itext PDF
+itext7-core = { group = "com.itextpdf", name = "itext7-core", version.ref = "itext7-core" }
+slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version.ref = "slf4j-simple" }
+
+#Shimmer
+shimmer = { group = "com.facebook.shimmer", name = "shimmer", version.ref = "shimmer" }
+
+#JSoup for HTML parsing
+jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoup" }
+
+#Download File
+work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work-runtime-ktx" }
+
+# PDFium
+pdfium-android = { group = "com.github.barteksc", name = "pdfium-android", version.ref = "pdfium-android" }
+#android-pdf-viewer = { group = "com.github.barteksc", name = "android-pdf-viewer", version.ref = "android-pdf-viewer" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+library = { id = "com.android.library", version.ref = "library" }
+ksp = {id = "com.google.devtools.ksp", version.ref = "ksp"}
+parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
