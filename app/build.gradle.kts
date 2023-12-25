@@ -72,9 +72,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.appcompat)
 
-    //Google Ads
-    implementation(libs.gms.play.services.ads)
-
     /* *****************************************************
      **** Lifecycle
      ****************************************************** */
